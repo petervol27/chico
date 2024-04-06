@@ -1,213 +1,197 @@
-
 /*this design is based for phone 303px minimum width. the queries page will include larger screen sizes*/
 /*hex codes:
 black: #2d2d2d
 white: #ecebe4
 yellow: #ebed1c
  */
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-	line-height: 1;
-	font-weight: 400;
-	margin: 0 auto;
-	padding: 0 3.2rem;
-	position: relative;
-	
-
+body {
+  line-height: 1;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  position: relative;
 }
-html{
-	font-size: 62.5%;
-	scroll-behavior: smooth;
-	font-family: 'assistant', sans-serif;
-	overflow-x: hidden;
-	background: #2d2d2d;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: "assistant", sans-serif;
+  overflow-x: hidden;
+  background: #2d2d2d;
 }
-.container{
-	max-width: 120rem;
-	margin: 0 auto;
-	padding: 0 3.2rem;
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
 }
 
-.main{
-	display: block;
-	max-width: 35rem;
-	margin: 0 auto;	
+.main {
+  display: block;
+  max-width: 35rem;
+  margin: 0 auto;
 }
-.nav-text{
-	font-size: 1.4rem;
-	text-align: center;
-	margin-bottom: 2.4rem;
-	color: #ecebe4;
-}
-
-.btn{
-	cursor: pointer;
-	transition: all 0.05s;
-	overflow:hidden ;
-	background-image: linear-gradient(60deg, #ED2B25 10%, #F89A20 35%, #F7E324 100%);
-	font-size: 1.4rem;
-	font-weight: 700;
-	color: #2d2d2d;
-	padding: 0.8rem 1.2rem;
-	border-radius: 20px;
-	margin-top: 2.2rem;
-}
-.btn:hover{
-	transform: scale(1.1);
-} 
-.btn:active{
-	background:#ecebe4;
+.nav-text {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #ecebe4;
 }
 
+.btn {
+  cursor: pointer;
+  transition: all 0.05s;
+  overflow: hidden;
+  background-image: linear-gradient(
+    60deg,
+    #ed2b25 10%,
+    #f89a20 35%,
+    #f7e324 100%
+  );
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  margin-top: 2.2rem;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn:active {
+  background: #ecebe4;
+}
 
 /*header section*****************************/
-.logo-header{
-	border-bottom: 3px solid #ecebe4 ;
-	box-shadow: 0 2px rgba(0, 0, 0, 0.7);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0 auto;
-	padding: 0 8rem;
-	margin-bottom: 2.4rem;
-	
-
+.logo-header {
+  border-bottom: 3px solid #ecebe4;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 8rem;
+  margin-bottom: 2.4rem;
 }
-.main-logo{
-	width:5rem;
-	cursor: pointer;
+.main-logo {
+  width: 5rem;
+  cursor: pointer;
 }
-
 
 /*Hero section********************************/
-.hero-section{
-/*	display: block;*/
-	background-image: url('logos/hero-section.jpg');
-	background-repeat: no-repeat;
-  	background-position: center center;
-  	background-size: cover;
-/*  	background-size: 100%;*/
-	margin-bottom: 2.4rem;
-  	
-  	
+.hero-section {
+  /*	display: block;*/
+  background-image: url("./Logos/hero-section.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /*  	background-size: 100%;*/
+  margin-bottom: 2.4rem;
 }
-.img-holder{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	margin-bottom: 1.4rem;
+.img-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.4rem;
 }
-.el-holder{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+.el-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.heading-holder{
-	margin-bottom: 0.4rem;
-	margin-top: 1rem;
+.heading-holder {
+  margin-bottom: 0.4rem;
+  margin-top: 1rem;
 }
-.text-holder{
-	margin-bottom: 1.2rem;
+.text-holder {
+  margin-bottom: 1.2rem;
 }
-.button-holder{
-	margin-bottom: 2.4rem;
-	
+.button-holder {
+  margin-bottom: 2.4rem;
 }
 
-
-.hero-img{
-	width:60%;
-/*	border: 2px #ecebe4 solid;*/
-/*	box-shadow:  0 0 5px 0 rgba(255, 255, 190, .75); */
-	border-radius: 50%;
-	padding: 1.2rem;
-	
-
+.hero-img {
+  width: 60%;
+  /*	border: 2px #ecebe4 solid;*/
+  /*	box-shadow:  0 0 5px 0 rgba(255, 255, 190, .75); */
+  border-radius: 50%;
+  padding: 1.2rem;
 }
 
-.main-heading{
-	color: #ebed1c;
-	font-size: 1.6rem;
-	font-weight: 700;
-	line-height: 1.2;
+.main-heading {
+  color: #ebed1c;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
-.hero-txt{
-	color: #2d2d2d;
-font-size: 1rem;
-font-weight: 300;
-line-height: 1.2;
-text-align: center;
+.hero-txt {
+  color: #2d2d2d;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
 }
 
-
-.hero-btn{
-	padding: 0.4rem 3.2rem;
-	font-size: 1.8rem;
-	border:none;
-	color: #ecebe4;
-
+.hero-btn {
+  padding: 0.4rem 3.2rem;
+  font-size: 1.8rem;
+  border: none;
+  color: #ecebe4;
 }
-
-
 
 /*Projects section******************************/
-.projects-section{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	justify-items: center;
-	align-items: center;
-	gap: 1.2rem;
-	margin-bottom: 2.4rem ;
-
+.projects-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
 }
 
-
-.logo-img{
-	width: 100%;
-	transition: all 0.4s;
-	overflow:hidden ;
-	
+.logo-img {
+  width: 100%;
+  transition: all 0.4s;
+  overflow: hidden;
 }
-.logo-img:hover{
-	transform: scale(1.1);
-	cursor: pointer;
+.logo-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-.logo-left{
-	justify-self: end;
+.logo-left {
+  justify-self: end;
 }
-.logo-right{
-	justify-self: start;
+.logo-right {
+  justify-self: start;
 }
-
 
 /*CTA section***************************/
-.cta-section{
-	text-align: center;
-	margin-bottom: 1.4rem;
+.cta-section {
+  text-align: center;
+  margin-bottom: 1.4rem;
 }
 
-.step-heading{
-	font-weight: 600;
-	font-size: 1.6rem;
-	margin-bottom: 0.8rem;
-	color: #ecebe4;
+.step-heading {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+  color: #ecebe4;
 }
-.step-text{
-	margin-bottom: 0.8rem;
-	font-weight: 500;
-	font-size: 1.2rem;
-	line-height: 1.2;
-	color: #ecebe4;
+.step-text {
+  margin-bottom: 0.8rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #ecebe4;
 }
-.step-heading span{
-	font-weight: 800;
+.step-heading span {
+  font-weight: 800;
 }
 /*.cta-btn{
 	font-size: 1.4rem;
@@ -218,127 +202,111 @@ text-align: center;
 	margin-top: 2.2rem;
 }*/
 
-
-
-
-
 /*footer*******************************/
 
-footer{
-	background: #ecebe4;
-	padding: 0.8rem;
+footer {
+  background: #ecebe4;
+  padding: 0.8rem;
+}
+.icon-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.icon {
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #2d2d2d;
+}
+.icon:hover {
+  transform: scale(1.1);
+}
 
+.page-image {
+  width: 100%;
+  margin-top: -5px;
+  padding-top: 0;
+  height: auto;
 }
-.icon-holder{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0.8rem;
+.last-image {
+  margin-bottom: 2.4rem;
 }
-.icon{
-	font-size: 1.4rem;
-	cursor: pointer;
-	color: #2d2d2d;
-}
-.icon:hover{
-	transform: scale(1.1);
-}
-
-.page-image{
-	width: 100%;
-	margin-top: -5px;
-	padding-top: 0;
-	height: auto;
-}
-.last-image{
-	margin-bottom: 2.4rem;
-}	
-
 
 /*Queris*******************************/
 
 /*Basically change the main width to the queries and just make a small change 
 so that the design looks like the original from the tablet up and when it reaches like 1100 make the hero image smaller thats it I think */
 
-
-@media(min-width:700px){
-	.main{
-		max-width: 70rem;
-	}
-	.hero-img{
-		width: 100%;
-/*		background: white;*/
-	}
-	.hero-section{
-	/*	display: flex;
+@media (min-width: 700px) {
+  .main {
+    max-width: 70rem;
+  }
+  .hero-img {
+    width: 100%;
+    /*		background: white;*/
+  }
+  .hero-section {
+    /*	display: flex;
 		justify-content: center;
 		align-items: center;*/
-		margin: 6.4rem 0;
-		padding-top: 1.2rem;
-	}
-	.el-holder{
-		display: grid;
-		grid-template-columns: 1fr 6fr ;
-		grid-template-rows: repeat(4, 1fr);
-		margin-right: 1rem;
-		grid-row-gap:0;
-
-	}
-	.heading-holder{
-		grid-column: 2/7;
-		justify-self: center;
-		align-self: end;
-		transform: translate(-25px);
-
-	}
-	.main-heading{
-		font-size: 2.4rem;
-	}
-	.hero-txt{
-		font-size: 1.4rem;
-		line-height: 1.5;
-
-	}
-	.img-holder{
-		grid-row: 1/5;
-		grid-column: 1/1;
-		justify-self: center;
-		align-self: start;
-		width: 32rem;
-		height: 100%;
-	}
-	.main-logo{
-		width: 8rem;
-	}
-	.hero-btn{
-		margin-top: 0;
-	}
-	.text-holder{
-		margin-bottom: 3.2rem;
-		grid-column: 2/7;
-		justify-self: start;
-		align-self: center;
-		transform: translate(-25px);
-	}
-	.button-holder{
-		grid-column: 2/7;
-		justify-self: center;
-		align-self: start;
-		transform: translate(-25px);
-	}
-	.icon{
-	font-size: 2.6rem;
-	}
-	.cta-section{
-		margin-bottom: 3.8rem;
-	}
-	.page-image{
-		width: 70%;
-	}
-
+    margin: 6.4rem 0;
+    padding-top: 1.2rem;
+  }
+  .el-holder {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin-right: 1rem;
+    grid-row-gap: 0;
+  }
+  .heading-holder {
+    grid-column: 2/7;
+    justify-self: center;
+    align-self: end;
+    transform: translate(-25px);
+  }
+  .main-heading {
+    font-size: 2.4rem;
+  }
+  .hero-txt {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  .img-holder {
+    grid-row: 1/5;
+    grid-column: 1/1;
+    justify-self: center;
+    align-self: start;
+    width: 32rem;
+    height: 100%;
+  }
+  .main-logo {
+    width: 8rem;
+  }
+  .hero-btn {
+    margin-top: 0;
+  }
+  .text-holder {
+    margin-bottom: 3.2rem;
+    grid-column: 2/7;
+    justify-self: start;
+    align-self: center;
+    transform: translate(-25px);
+  }
+  .button-holder {
+    grid-column: 2/7;
+    justify-self: center;
+    align-self: start;
+    transform: translate(-25px);
+  }
+  .icon {
+    font-size: 2.6rem;
+  }
+  .cta-section {
+    margin-bottom: 3.8rem;
+  }
+  .page-image {
+    width: 70%;
+  }
 }
-
-
-
-
-
